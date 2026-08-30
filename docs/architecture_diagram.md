@@ -2,6 +2,11 @@
 
 ## Live claim-scoring path (New Claim / Browse Existing Claims pages)
 
+![Live claim-scoring path](architecture_diagram_live_path.png)
+
+<details>
+<summary>Mermaid source</summary>
+
 ```mermaid
 flowchart TD
     subgraph Input["Claim Input"]
@@ -20,7 +25,7 @@ flowchart TD
     A2 --> D3[Deterministic contradiction check\nfeatures/consistency_check.py]
 
     A2 -.narrative.-> E1[Gemini: narrative analysis]
-    A3 -.photo.-> E2[Gemini: image analysis]
+    A3 -. image .-> E2[Gemini: image analysis]
     D3 --> F[Decision Fusion\ndecision/fusion.py]
     D1 --> F
     D2 --> F
@@ -46,7 +51,14 @@ flowchart TD
 *Green/blue boxes are deterministic and auditable (never call an LLM). Orange boxes are Gemini calls, each
 with a documented fallback if unavailable - the system never blocks or crashes without them.*
 
+</details>
+
 ## Offline training & evaluation path
+
+![Offline training and evaluation path](architecture_diagram_training_path.png)
+
+<details>
+<summary>Mermaid source</summary>
 
 ```mermaid
 flowchart LR
@@ -69,3 +81,5 @@ flowchart LR
     R2 --> R3[evaluation/generate_fp_fn_writeups.py]
     R3 --> R4[fp_fn_analysis.md]
 ```
+
+</details>
