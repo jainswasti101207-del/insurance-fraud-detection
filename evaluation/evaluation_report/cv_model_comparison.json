@@ -1,0 +1,54 @@
+{
+  "chosen_model": "xgboost",
+  "n_splits": 5,
+  "results": {
+    "logistic_regression": {
+      "accuracy": 0.94,
+      "precision": 0.692,
+      "recall": 0.818,
+      "f1": 0.75,
+      "roc_auc": 0.986,
+      "pr_auc": 0.904,
+      "false_positive_rate": 0.045,
+      "n_actual_fraud": 11,
+      "n_detected": 9,
+      "n_missed": 2
+    },
+    "decision_tree": {
+      "accuracy": 0.94,
+      "precision": 0.727,
+      "recall": 0.727,
+      "f1": 0.727,
+      "roc_auc": 0.844,
+      "pr_auc": 0.526,
+      "false_positive_rate": 0.034,
+      "n_actual_fraud": 11,
+      "n_detected": 8,
+      "n_missed": 3
+    },
+    "random_forest": {
+      "accuracy": 0.95,
+      "precision": 0.8,
+      "recall": 0.727,
+      "f1": 0.762,
+      "roc_auc": 0.986,
+      "pr_auc": 0.898,
+      "false_positive_rate": 0.022,
+      "n_actual_fraud": 11,
+      "n_detected": 8,
+      "n_missed": 3
+    },
+    "xgboost": {
+      "accuracy": 0.95,
+      "precision": 0.8,
+      "recall": 0.727,
+      "f1": 0.762,
+      "roc_auc": 0.991,
+      "pr_auc": 0.937,
+      "false_positive_rate": 0.022,
+      "n_actual_fraud": 11,
+      "n_detected": 8,
+      "n_missed": 3
+    }
+  }
+}

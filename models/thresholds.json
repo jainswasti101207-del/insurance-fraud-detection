@@ -1,0 +1,126 @@
+{
+  "legitimate_below": 0.05,
+  "monitor_below": 0.1,
+  "escalate_below": 0.9,
+  "sweep": [
+    {
+      "threshold": 0.1,
+      "precision": 0.733,
+      "recall": 1.0,
+      "f1": 0.846,
+      "false_positive_rate": 0.045
+    },
+    {
+      "threshold": 0.15,
+      "precision": 0.733,
+      "recall": 1.0,
+      "f1": 0.846,
+      "false_positive_rate": 0.045
+    },
+    {
+      "threshold": 0.2,
+      "precision": 0.733,
+      "recall": 1.0,
+      "f1": 0.846,
+      "false_positive_rate": 0.045
+    },
+    {
+      "threshold": 0.25,
+      "precision": 0.733,
+      "recall": 1.0,
+      "f1": 0.846,
+      "false_positive_rate": 0.045
+    },
+    {
+      "threshold": 0.3,
+      "precision": 0.733,
+      "recall": 1.0,
+      "f1": 0.846,
+      "false_positive_rate": 0.045
+    },
+    {
+      "threshold": 0.35,
+      "precision": 0.769,
+      "recall": 0.909,
+      "f1": 0.833,
+      "false_positive_rate": 0.034
+    },
+    {
+      "threshold": 0.4,
+      "precision": 0.769,
+      "recall": 0.909,
+      "f1": 0.833,
+      "false_positive_rate": 0.034
+    },
+    {
+      "threshold": 0.45,
+      "precision": 0.8,
+      "recall": 0.727,
+      "f1": 0.762,
+      "false_positive_rate": 0.022
+    },
+    {
+      "threshold": 0.5,
+      "precision": 0.8,
+      "recall": 0.727,
+      "f1": 0.762,
+      "false_positive_rate": 0.022
+    },
+    {
+      "threshold": 0.55,
+      "precision": 0.8,
+      "recall": 0.727,
+      "f1": 0.762,
+      "false_positive_rate": 0.022
+    },
+    {
+      "threshold": 0.6,
+      "precision": 0.8,
+      "recall": 0.727,
+      "f1": 0.762,
+      "false_positive_rate": 0.022
+    },
+    {
+      "threshold": 0.65,
+      "precision": 0.8,
+      "recall": 0.727,
+      "f1": 0.762,
+      "false_positive_rate": 0.022
+    },
+    {
+      "threshold": 0.7,
+      "precision": 0.8,
+      "recall": 0.727,
+      "f1": 0.762,
+      "false_positive_rate": 0.022
+    },
+    {
+      "threshold": 0.75,
+      "precision": 0.8,
+      "recall": 0.727,
+      "f1": 0.762,
+      "false_positive_rate": 0.022
+    },
+    {
+      "threshold": 0.8,
+      "precision": 0.889,
+      "recall": 0.727,
+      "f1": 0.8,
+      "false_positive_rate": 0.011
+    },
+    {
+      "threshold": 0.85,
+      "precision": 1.0,
+      "recall": 0.727,
+      "f1": 0.842,
+      "false_positive_rate": 0.0
+    },
+    {
+      "threshold": 0.9,
+      "precision": 1.0,
+      "recall": 0.636,
+      "f1": 0.778,
+      "false_positive_rate": 0.0
+    }
+  ]
+}

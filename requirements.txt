@@ -1,0 +1,12 @@
+-e .
+pandas
+scikit-learn
+xgboost
+python-docx
+streamlit
+joblib
+pydantic
+google-generativeai
+python-dotenv
+matplotlib
+pytest

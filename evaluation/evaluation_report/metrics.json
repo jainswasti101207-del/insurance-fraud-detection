@@ -1,0 +1,27 @@
+{
+  "n_claims": 100,
+  "n_positive": 11,
+  "probability_source": "out-of-fold cross-validation (ml/train.py) - NOT the deployed model's in-sample predictions, which would be artificially inflated on its own training data.",
+  "small_sample_caveat": "100 rows / 11 fraud-labeled claims is too small for statistically reliable metrics. These numbers describe performance on this curated sample only; see docs/limitations.md.",
+  "accuracy": 0.95,
+  "precision": 0.8,
+  "recall": 0.727,
+  "f1": 0.762,
+  "roc_auc": 0.991,
+  "pr_auc": 0.937,
+  "confusion_matrix": [
+    [
+      87,
+      2
+    ],
+    [
+      3,
+      8
+    ]
+  ],
+  "false_positive_rate": 0.022,
+  "n_actual_fraud": 11,
+  "n_detected": 8,
+  "n_missed": 3,
+  "n_false_positives": 2
+}
