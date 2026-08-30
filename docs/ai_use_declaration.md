@@ -2,8 +2,8 @@
 
 ## Development of this project
 
-This project was designed and built with **Claude Code** (Anthropic), an AI coding assistant, working
-interactively with the student. Claude Code was used to:
+This project was designed and built with the help of an AI coding assistant, working interactively with the
+student. The assistant was used to:
 
 - explore and understand the provided dataset, accident reports, and instruction documents;
 - design the system architecture (rule engine + ML model + Gemini multimodal layer + Streamlit UI);

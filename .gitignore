@@ -9,3 +9,5 @@ venv/
 .ipynb_checkpoints/
 build/
 dist/
+.claude/
+PLAN.md
