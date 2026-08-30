@@ -1,12 +1,12 @@
 -e .
-pandas
-scikit-learn
-xgboost
-python-docx
-streamlit
-joblib
-pydantic
-google-generativeai
-python-dotenv
-matplotlib
-pytest
+pandas==3.0.5
+scikit-learn==1.9.0
+xgboost==3.4.1
+python-docx==1.2.0
+streamlit==1.62.0
+joblib==1.5.3
+pydantic==2.13.5
+google-generativeai==0.8.6
+python-dotenv==1.2.3
+matplotlib==3.11.1
+pytest==9.1.1
